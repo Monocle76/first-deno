@@ -9,4 +9,4 @@ app.get("/greet/:name", (c) =>{
   return { message: "Hello "+name };
 })
 
-app.start({ port: 3000 })
+app.start({ port: 80 })
